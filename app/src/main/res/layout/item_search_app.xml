@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/id_searchlinear_lout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen5">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/id_searchapp_icon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:background="@drawable/default_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen10">
+
+                <TextView
+                    android:id="@+id/id_searchapp_name"
+                    style="@style/textview_black14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    tools:text="My App" />
+
+                <TextView
+                    android:id="@+id/id_searchthree_dot"
+                    style="@style/textview_black14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="@dimen/dimen5"
+                    android:text="@string/string_three_dot"
+                    android:textSize="@dimen/text20" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen10"
+                android:layout_marginTop="@dimen/dimen2"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_searchapp_rating"
+                    style="@style/textview_black14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="1.2"
+                    android:textSize="@dimen/text12" />
+
+                <com.bitvault.appstore.custom.FontTextView
+                    style="@style/textview_black14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen2"
+                    android:text="n"
+                    android:textSize="@dimen/text10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="@dimen/dimen10"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_weight="1">
+
+                <com.bitvault.appstore.custom.FontTextView
+                    android:id="@+id/id_searchprice_symbol"
+                    style="@style/textview_black14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$ "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/id_searchapp_free"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/free"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

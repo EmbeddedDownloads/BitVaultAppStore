@@ -1,0 +1,72 @@
+{
+	"app_detail": {
+		"package_name": "app package name",
+		"app_banner_url": "URL",
+		"app_icon_url": "URL",
+		"app_name": "Bitcoin Vault",
+		"price_type": "free",
+		"app_price": 0,
+		"category_id": "Category Id",
+		"category_name": "Category Name",
+		"category_icon":"URL",
+		"downloads": 5,
+		"download_unit":"hundred",
+		"company_name": "BitVault",
+		"short_description": "Transfer bitcoins",
+		"app_version": "1.1.1",
+		"permissions": [{
+			"name": "Contact",
+			"detail": "Read contact \n Write contact"
+		}, {
+			"name": "SMS",
+			"detail": "Read sms \n Write sms"
+		}, {
+			"name": "Call",
+			"detail": "Read call history \n Allow to call"
+		}, {
+			"name": "Bluetooth",
+			"detail": "Connect to device \n Pairing device"
+		}],
+		"screenshots": [{
+			"screenshot_no": 1,
+			"screenshot_url": "URL"
+		}, {
+			"screenshot_no": 1,
+			"screenshot_url": "URL"
+		}, {
+			"screenshot_no": 1,
+			"screenshot_url": "URL"
+		}, {
+			"screenshot_no": 1,
+			"screenshot_url": "URL"
+		}, {
+			"screenshot_no": 1,
+			"screenshot_url": "URL"
+		}],
+		"website": "xyz.com",
+		"app_email": "xyz @xyz.com",
+		"privacy_policy_url": "URL",
+		"rating": 4.4,
+		"whats_new": "About App",
+		"star": {
+			"star5": 40000,
+			"star4": 8000,
+			"star3": 7000,
+			"star2": 5000,
+			"star1": 10000
+		},
+		"review": [{
+				"review_id": 112,
+				"review": "Review Content",
+				"rating": 4.4,
+				"created_at": "12/03/2017"
+			},
+			{
+				"review_id": 112,
+				"review": "Review Content",
+				"rating": 4.0,
+				"created_at": "12/02/2017"
+			}
+		]
+	}
+}

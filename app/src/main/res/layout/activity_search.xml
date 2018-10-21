@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_search_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/id_search_frame_lout"/>
+
+
+    <com.bitvault.appstore.svlibrary.widgets.DetailSearchView
+        android:id="@+id/id_detail_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/HeaderTextView"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/id_noapp_txt"
+        android:text="@string/no_app" />
+
+
+</FrameLayout>

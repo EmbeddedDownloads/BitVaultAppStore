@@ -1,0 +1,122 @@
+{
+	"banner": [{
+		"banner_id": 1,
+		"banner_url": "img url",
+		"package_name": "com.snycon.guideforxender"
+	}, {
+		"banner_id": 1,
+		"banner_url": "img url",
+		"package_name": "com.snycon.guideforxender"
+	}, {
+		"banner_id": 1,
+		"banner_url": "img url",
+		"package_name": "com.snycon.guideforxender"
+	}, {
+		"banner_id": 1,
+		"banner_url": "img url",
+		"package_name": "com.snycon.guideforxender"
+	}],
+	"category": [{
+		"id": 2,
+		"name": "Social",
+		"category_icon_url": "iconURL"
+	}, {
+		"id": 2,
+		"name": "Media",
+		"category_icon_url": "iconURL"
+	}, {
+		"id": 2,
+		"name": "Graphics",
+		"category_icon_url": "iconURL"
+	}, {
+		"id": 2,
+		"name": "game",
+		"category_icon_url": "iconURL"
+	}, {
+		"id": 2,
+		"name": "game",
+		"category_icon_url": "iconURL"
+	}],
+	"appList": [{
+		"package_name": "app package name",
+		"app_icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe1uCLUAIkqzdRhlNNxc4P8lyzwN_Hn8KXhuJn0kcfGPaZrwQGkA",
+		"app_name": "Bitcoin Vault",
+		"price_type": "free",
+		"app_price": 0,
+		"category_id": 0,
+		"category_name": "Category Name ",
+		"rating": 1.2
+	}, {
+		"package_name": "app package name",
+		"app_icon_url": "https://cfcdnpull-creativefreedoml.netdna-ssl.com/wp-content/uploads/2015/03/icon-maker-review.jpg",
+		"app_name": "Bitcoin Vault",
+		"price_type": "free",
+		"app_price": 0,
+		"category_id": 0,
+		"category_name": "Category Name ",
+		"rating": 1.2
+	}, {
+		"package_name": "app package name",
+		"app_icon_url": "http://tekeye.biz/wp-content/uploads/2013/03/xxhdpi_home.png",
+		"app_name": "Bitcoin Vault",
+		"price_type": "free",
+		"app_price": 0,
+		"category_id": 0,
+		"category_name": "Category Name ",
+		"rating": 1.2
+	}, {
+		"package_name": "app package name",
+		"app_icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe1uCLUAIkqzdRhlNNxc4P8lyzwN_Hn8KXhuJn0kcfGPaZrwQGkA",
+		"app_name": "Bitcoin Vault",
+		"price_type": "free",
+		"app_price": 0,
+		"category_id": 2,
+		"category_name": "Category Name ",
+		"rating": 1.2
+	}, {
+		"package_name": "app package name",
+		"app_icon_url": "http://tekeye.biz/wp-content/uploads/2013/03/xxhdpi_home.png",
+		"app_name": "Bitcoin Vault",
+		"price_type": "free",
+		"app_price": 5,
+		"category_id": 0,
+		"category_name": "Category Name ",
+		"rating": 1.2
+	}, {
+     		"package_name": "app package name",
+     		"app_icon_url": "http://tekeye.biz/wp-content/uploads/2013/03/xxhdpi_home.png",
+     		"app_name": "Bitcoin Vault",
+     		"price_type": "free",
+     		"app_price": 5,
+     		"category_id": 0,
+     		"category_name": "Category Name ",
+     		"rating": 1.2
+     	}, {
+         		"package_name": "app package name",
+         		"app_icon_url": "http://tekeye.biz/wp-content/uploads/2013/03/xxhdpi_home.png",
+         		"app_name": "Bitcoin Vault",
+         		"price_type": "free",
+         		"app_price": 5,
+         		"category_id": 0,
+         		"category_name": "Category Name ",
+         		"rating": 1.2
+         	}, {
+             		"package_name": "app package name",
+             		"app_icon_url": "URL ",
+             		"app_name": "Bitcoin Vault",
+             		"price_type": "free",
+             		"app_price": 5,
+             		"category_id": 0,
+             		"category_name": "Category Name ",
+             		"rating": 1.2
+             	}, {
+                 		"package_name": "app package name",
+                 		"app_icon_url": "URL ",
+                 		"app_name": "Bitcoin Vault",
+                 		"price_type": "free",
+                 		"app_price": 5,
+                 		"category_id": 0,
+                 		"category_name": "Category Name ",
+                 		"rating": 1.2
+                 	}]
+}

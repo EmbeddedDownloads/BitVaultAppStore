@@ -1,0 +1,92 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="dimen0">0dp</dimen>
+    <dimen name="dimen1">1dp</dimen>
+    <dimen name="dimen2">2dp</dimen>
+    <dimen name="dimen3">3dp</dimen>
+    <dimen name="dimen4">4dp</dimen>
+    <dimen name="dimen5">5dp</dimen>
+    <dimen name="dimen6">6dp</dimen>
+    <dimen name="dimen7">7dp</dimen>
+    <dimen name="dimen8">8dp</dimen>
+    <dimen name="dimen9">9dp</dimen>
+    <dimen name="dimen10">10dp</dimen>
+    <dimen name="dimen12">12dp</dimen>
+    <dimen name="dimen13">13dp</dimen>
+    <dimen name="dimen15">15dp</dimen>
+    <dimen name="dimen16">16dp</dimen>
+    <dimen name="dimen17">17dp</dimen>
+    <dimen name="dimen18">18dp</dimen>
+    <dimen name="dimen20">20dp</dimen>
+    <dimen name="dimen21">21dp</dimen>
+    <dimen name="dimen22">22dp</dimen>
+    <dimen name="dimen24">24dp</dimen>
+    <dimen name="dimen25">25dp</dimen>
+    <dimen name="dimen26">26dp</dimen>
+    <dimen name="dimen28">28dp</dimen>
+    <dimen name="dimen30">30dp</dimen>
+    <dimen name="dimen32">32dp</dimen>
+    <dimen name="dimen35">35dp</dimen>
+    <dimen name="dimen37">37dp</dimen>
+    <dimen name="dimen38">38dp</dimen>
+    <dimen name="dimen40">40dp</dimen>
+    <dimen name="dimen45">45dp</dimen>
+    <dimen name="dimen48">48dp</dimen>
+    <dimen name="dimen50">50dp</dimen>
+    <dimen name="dimen55">55dp</dimen>
+    <dimen name="dimen56">56dp</dimen>
+    <dimen name="dimen60">60dp</dimen>
+    <dimen name="dimen63">63dp</dimen>
+    <dimen name="dimen66">66dp</dimen>
+    <dimen name="dimen70">70dp</dimen>
+    <dimen name="dimen76">76dp</dimen>
+    <dimen name="dimen80">80dp</dimen>
+    <dimen name="dimen86">86dp</dimen>
+    <dimen name="dimen93">93dp</dimen>
+    <dimen name="dimen98">98dp</dimen>
+    <dimen name="dimen100">100dp</dimen>
+    <dimen name="dimen170">170dp</dimen>
+    <dimen name="dimen200">200dp</dimen>
+    <dimen name="dimen240">240dp</dimen>
+    <dimen name="dimen288">288dp</dimen>
+
+
+    <dimen name="text4">4sp</dimen>
+    <dimen name="text6">6sp</dimen>
+    <dimen name="text8">8sp</dimen>
+    <dimen name="text9">9sp</dimen>
+    <dimen name="text10">10sp</dimen>
+    <dimen name="text12">12sp</dimen>
+    <dimen name="text13">13sp</dimen>
+    <dimen name="text14">14sp</dimen>
+    <dimen name="text15">15sp</dimen>
+    <dimen name="text16">16sp</dimen>
+    <dimen name="text17">17sp</dimen>
+    <dimen name="text18">18sp</dimen>
+    <dimen name="text20">20sp</dimen>
+    <dimen name="text22">22sp</dimen>
+    <dimen name="text25">25sp</dimen>
+    <dimen name="text28">28sp</dimen>
+    <dimen name="text30">30sp</dimen>
+    <dimen name="text35">35sp</dimen>
+    <dimen name="text40">40sp</dimen>
+    <dimen name="text45">45sp</dimen>
+    <dimen name="text50">50sp</dimen>
+    <dimen name="text55">55sp</dimen>
+    <dimen name="text60">60sp</dimen>
+
+    <dimen name="drawer_width">260dp</dimen>
+
+
+    <!--Detail Page-->
+    <dimen name="icon_size">88dp</dimen>
+    <dimen name="pmn_icon_size">25dp</dimen>
+    <dimen name="app_icon_size">60dp</dimen>
+    <dimen name="screen_shot_height">280dp</dimen>
+    <dimen name="review_box_height">180dp</dimen>
+    <dimen name="app_item_margin">2dp</dimen>
+    <dimen name="banner_width">200dp</dimen>
+    <dimen name="banner_height">200dp</dimen>
+
+</resources>

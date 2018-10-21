@@ -1,0 +1,36 @@
+{
+ "app_description":[{
+  "title":"Bitcoin Vault",
+ "header":"header text is there for the content below for full description",
+ "description":"Full Description Content This is first paragraph. This is first paragraph. This is first paragraph. This is first paragraph.
+  This is first paragraph. This is first paragraph. This is first paragraph. This is first paragraph. This is first paragraph. This is first paragraph.
+  This is first paragraph. This is first paragraph. This is first paragraph. This is first paragraph. \n This is second paragraph.
+  This is second paragraph. This is second paragraph. This is second paragraph. This is second paragraph. This is second paragraph.
+  This is second paragraph. This is second paragraph. This is second paragraph. This is second paragraph. This is second paragraph.
+  This is second paragraph. This is second paragraph. This is second paragraph. This is second paragraph. This is second paragraph.
+  This is second paragraph. This is second paragraph. This is second paragraph. This is second paragraph. This is second paragraph.
+   \n  This is third paragraph. This is third paragraph. This is third paragraph. This is third paragraph. This is third paragraph.
+  This is third paragraph. This is third paragraph. This is third paragraph. This is third paragraph. This is third paragraph.
+  This is third paragraph. This is third paragraph. This is third paragraph. This is third paragraph. This is third paragraph.
+  This is third paragraph. This is third paragraph. This is third paragraph. This is third paragraph. This is third paragraph. \n
+  This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph.
+  This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph.
+  This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph.
+  This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph.
+  This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph. This is forth paragraph. \n
+  This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph.
+  This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph.
+  This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph.
+  This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph.
+  This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph. This is fifth paragraph.",
+ "whats_new":"Separate menu for Refill Booking through Cash on delivery & Online Payment for better user experience. \n Fix for Refill History sorting
+  issue \n Fix for payment screen refresh issue on screen orientation change",
+ "version":"1.0.0.0",
+ "downloads":"10,000+ downloads",
+ "offered_by":"Times Music",
+ "developer_email":"timesmusic.yt@gmail.com",
+ "developer_address":"4th Floor, Times of India, Delhi",
+ "download_size":"app size in MB",
+ "updated_date":"03-05-2017"
+ }]
+}

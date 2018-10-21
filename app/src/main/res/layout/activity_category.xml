@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_category_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dimen15"
+        android:layout_marginTop="@dimen/dimen15"
+        android:layout_gravity="center_horizontal"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/layout_loading"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/id_rl_header"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <com.bitvault.appstore.custom.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                style="@style/BackButton"
+                android:textColor="@color/color_white"
+                android:id="@+id/id_category_back_txt"/>
+
+            <TextView
+                android:id="@+id/id_tv_header_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/id_category_back_txt"
+                style="@style/Header1TextView"
+                android:textColor="@color/color_white"
+                android:text="My App"/>
+
+            <com.bitvault.appstore.custom.FontTextView
+                android:id="@+id/id_ftv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/dimen10"
+                style="@style/fontTextView"
+                android:text="k"
+                android:textColor="@color/color_white"
+                android:background="?attr/selectableItemBackground"/>
+
+
+
+        </RelativeLayout>
+
+        <com.bitvault.appstore.svlibrary.widgets.DetailSearchView
+            android:id="@+id/id_category_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

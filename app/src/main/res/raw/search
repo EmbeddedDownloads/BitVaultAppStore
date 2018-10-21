@@ -1,0 +1,101 @@
+{"appList": [{
+ 		"package_name": "app package name",
+ 		"app_icon_url": "URL ",
+ 		"app_name": "Bitcoin Vault",
+ 		"price_type": "free",
+ 		"app_price": 0,
+ 		"category_id": 0,
+ 		"category_name": "Category Name ",
+ 		"rating": 1.2
+ 	}, {
+ 		"package_name": "app package name",
+ 		"app_icon_url": "URL ",
+ 		"app_name": "Bitcoin Vault",
+ 		"price_type": "free",
+ 		"app_price": 0,
+ 		"category_id": 0,
+ 		"category_name": "Category Name ",
+ 		"rating": 1.2
+ 	}, {
+ 		"package_name": "app package name",
+ 		"app_icon_url": "URL ",
+ 		"app_name": "Bitcoin Vault",
+ 		"price_type": "free",
+ 		"app_price": 0,
+ 		"category_id": 0,
+ 		"category_name": "Category Name ",
+ 		"rating": 1.2
+ 	}, {
+ 		"package_name": "app package name",
+ 		"app_icon_url": "URL ",
+ 		"app_name": "Bitcoin Vault",
+ 		"price_type": "free",
+ 		"app_price": 0,
+ 		"category_id": 2,
+ 		"category_name": "Category Name ",
+ 		"rating": 1.2
+ 	}, {
+ 		"package_name": "app package name",
+ 		"app_icon_url": "URL ",
+ 		"app_name": "Bitcoin Vault",
+ 		"price_type": "free",
+ 		"app_price": 5,
+ 		"category_id": 0,
+ 		"category_name": "Category Name ",
+ 		"rating": 1.2
+ 	}, {
+      		"package_name": "app package name",
+      		"app_icon_url": "URL ",
+      		"app_name": "Bitcoin Vault",
+      		"price_type": "free",
+      		"app_price": 0,
+      		"category_id": 0,
+      		"category_name": "Category Name ",
+      		"rating": 1.2
+      	}, {
+      		"package_name": "app package name",
+      		"app_icon_url": "URL ",
+      		"app_name": "Bitcoin Vault",
+      		"price_type": "free",
+      		"app_price": 0,
+      		"category_id": 2,
+      		"category_name": "Category Name ",
+      		"rating": 1.2
+      	}, {
+      		"package_name": "app package name",
+      		"app_icon_url": "URL ",
+      		"app_name": "Bitcoin Vault",
+      		"price_type": "free",
+      		"app_price": 5,
+      		"category_id": 0,
+      		"category_name": "Category Name ",
+      		"rating": 1.2
+      	}, {
+               		"package_name": "app package name",
+               		"app_icon_url": "URL ",
+               		"app_name": "Bitcoin Vault",
+               		"price_type": "free",
+               		"app_price": 5,
+               		"category_id": 0,
+               		"category_name": "Category Name ",
+               		"rating": 1.2
+               	}, {
+                       		"package_name": "app package name",
+                       		"app_icon_url": "URL ",
+                       		"app_name": "Bitcoin Vault",
+                       		"price_type": "free",
+                       		"app_price": 5,
+                       		"category_id": 0,
+                       		"category_name": "Category Name ",
+                       		"rating": 1.2
+                       	}, {
+                               		"package_name": "app package name",
+                               		"app_icon_url": "URL ",
+                               		"app_name": "Bitcoin Vault",
+                               		"price_type": "free",
+                               		"app_price": 5,
+                               		"category_id": 0,
+                               		"category_name": "Category Name ",
+                               		"rating": 1.2
+                               	}]
+ }

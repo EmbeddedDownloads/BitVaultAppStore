@@ -1,0 +1,148 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+
+
+    <style name="textview_black14">
+        <item name="android:textSize">@dimen/text14</item>
+    </style>
+
+    <style name="textview_white14">
+        <item name="android:textSize">@dimen/text14</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="RatingBarWhite" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/drw_ratingbar_white</item>
+        <item name="android:minHeight">@dimen/dimen15</item>
+        <item name="android:maxHeight">@dimen/dimen15</item>
+
+    </style>
+
+    <style name="RatingBarGray" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/drw_ratingbar_gray</item>
+        <item name="android:minHeight">@dimen/dimen15</item>
+        <item name="android:maxHeight">@dimen/dimen15</item>
+
+    </style>
+
+
+    <style name="RatingBarLarge" parent="@android:style/Widget.Holo.RatingBar">
+        <item name="android:progressDrawable">@drawable/drw_ratingbar</item>
+    </style>
+
+    <style name="fontTextView">
+        <item name="android:textSize">@dimen/text25</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="appName">
+        <item name="android:textSize">@dimen/text20</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="HeaderTextView">
+        <item name="android:textSize">@dimen/text25</item>
+        <item name="android:paddingLeft">@dimen/dimen10</item>
+        <item name="android:paddingRight">@dimen/dimen20</item>
+    </style>
+
+    <style name="HeaderTitleText">
+        <item name="android:textSize">@dimen/text18</item>
+        <item name="android:layout_marginLeft">@dimen/dimen10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="HeaderText">
+        <item name="android:textSize">@dimen/text16</item>
+    </style>
+
+    <style name="PermissionRowLout">
+        <item name="android:paddingLeft">@dimen/dimen8</item>
+        <item name="android:paddingRight">@dimen/dimen20</item>
+        <item name="android:paddingTop">@dimen/dimen10</item>
+        <item name="android:paddingBottom">@dimen/dimen10</item>
+    </style>
+
+    <style name="Header1TextView">
+        <item name="android:textSize">@dimen/text18</item>
+        <item name="android:textColor">@color/color_black_light</item>
+        <item name="android:paddingTop">@dimen/dimen10</item>
+        <item name="android:paddingBottom">@dimen/dimen10</item>
+        <item name="android:paddingLeft">@dimen/dimen10</item>
+        <item name="android:paddingRight">@dimen/dimen20</item>
+    </style>
+
+    <style name="ReadMore">
+        <item name="android:padding">@dimen/dimen5</item>
+        <item name="android:textSize">@dimen/text15</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="PermissionNameTextView">
+        <item name="android:textSize">@dimen/text18</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:paddingTop">@dimen/dimen10</item>
+        <item name="android:paddingLeft">@dimen/dimen10</item>
+        <item name="android:paddingRight">@dimen/dimen20</item>
+    </style>
+
+    <style name="BackButton">
+        <item name="android:textSize">@dimen/text16</item>
+        <item name="android:padding">@dimen/dimen10</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:text">q</item>
+    </style>
+
+    <!--Permission Style-->
+
+    <style name="permission_detail_dialog_lout">
+        <item name="android:background">@drawable/drw_permission_bg</item>
+        <item name="android:padding">@dimen/dimen20</item>
+    </style>
+
+    <style name="permission_detail_dialog_lout_new">
+        <item name="android:background">@drawable/drw_permission_bg</item>
+        <item name="android:paddingLeft">@dimen/dimen10</item>
+        <item name="android:paddingRight">@dimen/dimen10</item>
+    </style>
+
+    <!--Alert Dialog Style-->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#000000</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#000000</item>
+        <!-- Used for the background -->
+        <item name="android:background">#ffffff</item>
+    </style>
+
+
+</resources>

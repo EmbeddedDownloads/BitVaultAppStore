@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="@dimen/dimen0"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/id_ll_myappBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            android:weightSum="1">
+
+            <com.bitvault.appstore.custom.FontTextView
+                android:id="@+id/id_menu_btn"
+                style="@style/fontTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen10"
+                android:text="@string/menu_icon"
+                android:textColor="@color/color_white" />
+
+            <TextView
+                style="@style/HeaderTitleText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="@dimen/dimen10"
+                android:paddingEnd="@dimen/dimen10"
+                android:text="@string/my_apps"
+                android:textColor="@color/color_white" />
+
+            <com.bitvault.appstore.custom.FontTextView
+                android:id="@+id/searchTxt"
+                style="@style/fontTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen10"
+                android:text="@string/search_icon"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_light"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/id_rl_tablayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:paddingStart="@dimen/dimen10"
+                    android:paddingEnd="@dimen/dimen10">
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/id_tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:tabIndicatorColor="@color/color_white"
+                        app:tabSelectedTextColor="@color/color_white"
+                        app:tabTextColor="@color/color_white_op_30" />
+
+                </RelativeLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/id_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen48"
+                    android:background="@color/color_light"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            </RelativeLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</layout>

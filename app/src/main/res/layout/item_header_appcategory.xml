@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/id_category_rlout"
+        android:paddingTop="@dimen/dimen10"
+        android:background="?attr/selectableItemBackground"
+        android:paddingLeft="@dimen/dimen20"
+        android:paddingBottom="@dimen/dimen10">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textview_black14"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:text="@string/similar_app"
+            android:id="@+id/id_app_category_name"/>
+
+        <TextView
+            android:id="@+id/id_tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textview_black14"
+            android:text="@string/more"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dimen20"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_home_app_recycler"/>
+
+</LinearLayout>

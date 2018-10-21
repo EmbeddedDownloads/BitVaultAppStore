@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/dimen35"
+    android:gravity="center_horizontal"
+    android:background="@color/submit_rating_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen10"
+        android:gravity="center"
+        style="@style/HeaderText"
+        android:textColor="@color/color_black"
+        android:id="@+id/id_vp_head_txt"
+        android:text="@string/write_review" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen80">
+
+    <EditText
+        android:id="@+id/id_vp_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tell_us"
+        android:maxLines="2"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="@dimen/text16"
+        android:layout_margin="@dimen/dimen10" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_vp_finish_txt"
+        style="@style/textview_black14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/dimen18"
+        android:background="?attr/selectableItemBackground"
+        android:paddingLeft="@dimen/dimen5"
+        android:paddingRight="@dimen/dimen5"
+        android:paddingTop="@dimen/dimen5"
+        android:text="@string/finish"
+        android:textColor="@color/color_black"
+        android:textAllCaps="true" />
+
+</LinearLayout>

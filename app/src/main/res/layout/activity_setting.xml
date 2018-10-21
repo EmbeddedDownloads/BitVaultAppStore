@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <com.bitvault.appstore.custom.FontTextView
+                android:id="@+id/id_tv_cancel"
+                style="@style/BackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dimen10"
+                android:onClick="onCancelClicked"
+                android:textColor="@color/color_white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/id_tv_title"
+                style="@style/HeaderTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dimen20"
+                android:maxLines="1"
+                android:text="@string/action_settings"
+                android:textColor="@color/color_white" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen15">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/general"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/id_ll_auto_update_apps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen15"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/auto_update_apps"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/dimen17" />
+
+                    <TextView
+                        android:id="@+id/id_tv_app_auto_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/auto_update_app_over_wifi_only"
+                        android:textColor="@color/color_black_light" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1"
+                    android:layout_marginBottom="@dimen/dimen15"
+                    android:layout_marginTop="@dimen/dimen15"
+                    android:background="@color/gray_color" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen15"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/id_tv_add_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_icon_to_home_screen"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/dimen17" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/id_tv_add_icon"
+                        android:text="@string/for_new_apps"
+                        android:textColor="@color/color_black_light" />
+
+                    <CheckBox
+                        android:id="@+id/id_st_check_item_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dimen15"
+                        android:buttonTint="@color/colorPrimary"
+
+                        />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1"
+                    android:layout_marginBottom="@dimen/dimen15"
+                    android:layout_marginTop="@dimen/dimen15"
+                    android:background="@color/gray_color" />
+
+                <LinearLayout
+                    android:id="@+id/id_ll_clearLocalHistory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen15"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/clear_local_search_history"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/dimen17" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/remove_searches_that_you_have_perform_from_this_device"
+                        android:textColor="@color/color_black_light" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen15"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen15">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notifications"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen15"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/id_tv_app_updates"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_updates_available"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/dimen17" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/id_tv_app_updates"
+                        android:text="@string/notify_when_app_updates_are_available"
+                        android:textColor="@color/color_black_light" />
+
+                    <CheckBox
+                        android:id="@+id/id_notify_app_update_available"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dimen15"
+                        android:buttonTint="@color/colorPrimary"
+
+                        />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1"
+                    android:layout_marginBottom="@dimen/dimen15"
+                    android:layout_marginTop="@dimen/dimen15"
+                    android:background="@color/gray_color" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen15"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/id_tv_apps_auto_updated"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apps_were_auto_updated"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/dimen17" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/id_tv_apps_auto_updated"
+                        android:text="@string/notify_when_apps_are_automatically_updated"
+                        android:textColor="@color/color_black_light" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dimen15"
+                        android:buttonTint="@color/colorPrimary"
+
+                        />
+
+                </RelativeLayout>
+
+                <!--Remove later-->
+             <!--   <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen15">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_controls"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/id_ll_required_auth_for_purchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen15"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/req_auth_for_purchase"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/dimen17" />
+
+                    <TextView
+                        android:id="@+id/id_tv_for_all_purchase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/for_all_purchases"
+                        android:textColor="@color/color_black_light" />
+
+                </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen15">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/id_ll_app_store_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen15"
+                    android:layout_marginBottom="@dimen/dimen25"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_store_version_text"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/dimen17" />
+
+                    <TextView
+                        android:id="@+id/id_tv_app_store_version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_black_light" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</layout>

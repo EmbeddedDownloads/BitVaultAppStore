@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/banner_width"
+    android:paddingTop="?attr/actionBarSize">
+
+    <com.bitvault.appstore.custom.CircularImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="@dimen/dimen10"
+        android:src="@drawable/banner"
+        android:id="@+id/id_banner_image"/>
+
+</LinearLayout>

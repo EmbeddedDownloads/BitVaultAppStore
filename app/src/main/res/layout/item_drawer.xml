@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/id_drawer_lout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen10">
+
+        <com.bitvault.appstore.custom.FontTextView
+            android:id="@+id/id_drawer_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="l"
+            android:textSize="@dimen/text25" />
+
+        <TextView
+            android:id="@+id/id_drawer_name"
+            style="@style/textview_black14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dimen5"
+            android:paddingTop="@dimen/dimen2" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen1"
+        android:id="@+id/id_drawer_line_view"
+        android:background="@color/submit_rating_bg"/>
+</LinearLayout>

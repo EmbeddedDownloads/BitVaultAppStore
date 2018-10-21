@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/dimen35"
+    android:background="@color/submit_rating_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen10"
+        android:gravity="center"
+        style="@style/HeaderText"
+        android:id="@+id/id_vp_head_txt"
+        android:text="@string/rate_app"
+        android:textColor="@color/color_black"/>
+
+    <RatingBar
+        android:id="@+id/id_vp_ratingbar"
+        style="@style/RatingBarLarge"
+        android:stepSize="0.01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_vp_msg_txt"
+        android:text="Love it"/>
+
+    <TextView
+        android:id="@+id/id_vp_submit_txt"
+        style="@style/textview_black14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/dimen10"
+        android:layout_marginTop="@dimen/dimen12"
+        android:background="?attr/selectableItemBackground"
+        android:paddingLeft="@dimen/dimen5"
+        android:paddingRight="@dimen/dimen5"
+        android:paddingTop="@dimen/dimen5"
+        android:text="@string/submit"
+        android:textColor="@color/color_dark_gray"
+        android:textAllCaps="true" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/id_home_category_lout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:layout_margin="@dimen/dimen2">
+    <TextView
+        android:id="@+id/id_app_category"
+        style="@style/textview_white14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dimen15"
+        android:paddingRight="@dimen/dimen15"
+        android:paddingTop="@dimen/dimen5"
+        android:paddingBottom="@dimen/dimen5"
+        android:textAllCaps="true"
+        android:background="@drawable/drw_app_category"
+        tools:text="GAME"/>
+</LinearLayout>

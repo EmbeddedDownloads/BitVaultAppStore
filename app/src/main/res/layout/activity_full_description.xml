@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="appDetaInfo"
+            type="com.bitvault.appstore.webservice.response.AppDescriptionInfo" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:orientation="horizontal">
+
+            <com.bitvault.appstore.custom.FontTextView
+                android:id="@+id/id_tv_cancel"
+                style="@style/fontTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:onClick="onCancelClicked"
+                android:padding="@dimen/dimen10"
+                android:text="@string/cross_img"
+                android:textColor="@color/color_black_light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/id_tv_title"
+                style="@style/HeaderTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@{appDetaInfo.title}" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen1"
+            android:background="@android:color/darker_gray" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollViewFull">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:orientation="vertical">
+
+                <com.bitvault.appstore.custom.CustomTextViewRobotoLight
+                    android:id="@+id/id_tv_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen20"
+                    android:gravity="center"
+                    android:background="@color/color_white"
+                    android:text="@{appDetaInfo.short_description}"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text17"
+                    android:lineSpacingExtra="5dp"/>
+
+                <com.bitvault.appstore.custom.CustomTextViewRobotoRegular
+                    android:id="@+id/id_tv_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen20"
+                    android:layout_marginLeft="@dimen/dimen20"
+                    android:layout_marginRight="@dimen/dimen20"
+                    android:text="@{appDetaInfo.full_description}"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text14"
+                    android:lineSpacingExtra="5dp"
+                    android:background="@color/color_white"/>
+
+                <LinearLayout
+                    android:id="@+id/id_ll_whatsnew"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen25"
+                    android:orientation="horizontal"
+                    android:background="@color/color_white"
+                    android:paddingBottom="@dimen/dimen25"
+                    android:paddingRight="@dimen/dimen20"
+                    android:paddingTop="@dimen/dimen15">
+
+                    <com.bitvault.appstore.custom.FontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen15"
+                        android:text="A"
+                        android:textSize="@dimen/text35" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen15"
+                        android:layout_marginTop="@dimen/dimen5"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/whats_new"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text16" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen8"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@{appDetaInfo.whats_new}"
+                            android:textSize="@dimen/text16" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1"
+                    android:layout_margin="@dimen/dimen20"
+                    android:background="@android:color/darker_gray" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/id_rv_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen20"
+                    android:layout_marginLeft="@dimen/dimen20"
+                    android:layout_marginRight="@dimen/dimen20" />
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.volley.toolbox.NetworkImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/screenshot_default"
+    android:paddingLeft="@dimen/dimen5"
+    android:paddingRight="@dimen/dimen5"
+    android:scaleType="fitXY"
+    android:id="@+id/id_screenshot_img" />

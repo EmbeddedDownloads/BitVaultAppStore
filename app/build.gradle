@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io"
+        }
+    }
+}
+android {
+    compileSdkVersion 24
+    buildToolsVersion "25.0.3"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.bitvault.appstore"
+        minSdkVersion 23
+        targetSdkVersion 25
+        versionCode 26
+        versionName "v_1.51.581"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/ASL2.0'
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:25.3.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.github.PhilJay:MPAndroidChart:v2.0.9'
+    compile 'com.pacioianu.david:ink-page-indicator:1.2.0'
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile 'ch.acra:acra:4.6.2'
+    compile 'com.madgag.spongycastle:core:1.54.0.0'
+    compile 'com.madgag.spongycastle:prov:1.54.0.0'
+    compile project(path: ':nammu')
+    compile 'com.googlecode.libphonenumber:libphonenumber:8.8.5'
+    compile('org.apache.httpcomponents:httpmime:4.3.6') {
+        exclude module: 'httpclient'
+    }
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5'
+    compile 'com.paypal.sdk:paypal-android-sdk:2.14.2'
+    compile project(':secure_sdk')
+}
+

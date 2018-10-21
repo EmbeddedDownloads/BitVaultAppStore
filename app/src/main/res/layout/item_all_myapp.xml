@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="resolveInfo"
+            type="android.content.pm.ResolveInfo" />
+    </data>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="@dimen/dimen2"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/id_ll_baseLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen86"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen5">
+
+            <ImageView
+                android:id="@+id/id_app_icon"
+                android:layout_width="@dimen/dimen76"
+                android:layout_height="@dimen/dimen76"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/default_icon" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen10">
+
+                        <TextView
+                            android:id="@+id/id_app_name"
+                            style="@style/textview_black14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="@dimen/dimen5"
+                            android:maxLines="1"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text12"
+                            tools:text="My App" />
+
+                        <com.bitvault.appstore.custom.FontTextView
+                            android:id="@+id/id_cancel"
+                            style="@style/textview_black14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingRight="@dimen/dimen5"
+                            android:text="@string/cross_img"
+                            android:textSize="@dimen/text20"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen10"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/id_package_name"
+                            style="@style/textview_black14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textSize="@dimen/text10"
+                            tools:text="1.2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/id_ll_size_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen10"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/id_tv_app_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1.2 MB "
+                            android:textSize="@dimen/text10" />
+
+                        <TextView
+                            android:id="@+id/id_tv_bullet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/html_bullet"
+                            android:textSize="@dimen/text14" />
+
+                        <TextView
+                            android:id="@+id/id_tv_last_update_open"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text10" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/id_ll_downloading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen10"
+                        android:gravity="center_vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/id_tv_download"
+                            style="@style/textview_black14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/downloading"
+                            android:textSize="@dimen/text10" />
+
+                        <TextView
+                            android:id="@+id/id_tv_download_progress"
+                            style="@style/textview_black14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen10"
+                            android:textSize="@dimen/text10"
+                            tools:text="0%" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen10"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/id_searchapp_rating"
+                            style="@style/textview_black14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1.2"
+                            android:textSize="@dimen/text10" />
+
+                        <com.bitvault.appstore.custom.FontTextView
+                            android:id="@+id/id_ftv_rating"
+                            style="@style/textview_black14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen2"
+                            android:text="n"
+                            android:textSize="@dimen/text8" />
+                    </LinearLayout>
+
+                    <!--remove later-->
+                    <!-- <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="end"
+                         android:layout_marginRight="@dimen/dimen10"
+                         android:layout_marginTop="@dimen/dimen10"
+                         android:layout_weight="1">
+
+
+                     </LinearLayout>-->
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/id_rl_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dimen8"
+                    android:layout_marginTop="@dimen/dimen55">
+
+                    <com.bitvault.appstore.custom.CustomTextViewRobotoMedium
+                        android:id="@+id/id_tv_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text12"
+                        tools:text="FREE" />
+
+                    <com.bitvault.appstore.custom.FontTextView
+                        android:id="@+id/id_ftv_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="e"
+                        android:textSize="@dimen/text18"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</layout>

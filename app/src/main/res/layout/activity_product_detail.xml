@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/id_dt_appbanner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        android:background="@mipmap/ic_launcher"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerCrop"
+        app:layout_collapseMode="parallax" />
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/id_sv_nested_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <Space
+                    android:id="@+id/id_space"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen200" />
+
+                <include
+                    layout="@layout/content_detail"
+                    />
+
+                </LinearLayout>
+
+
+            </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/id_rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        >
+
+        <com.bitvault.appstore.custom.FontTextView
+            android:id="@+id/id_detail_back"
+            style="@style/BackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dimen6"
+            android:layout_marginTop="@dimen/dimen10"
+            android:textColor="@color/color_white"/>
+
+        <com.bitvault.appstore.custom.FontTextView
+            android:id="@+id/id_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen15"
+            android:text="@string/search_icon"
+            android:textSize="@dimen/text25"
+            android:textColor="@color/color_white"
+
+            />
+
+        <com.bitvault.appstore.svlibrary.widgets.DetailSearchView
+            android:id="@+id/id_detail_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_loading"/>
+
+
+</FrameLayout>
